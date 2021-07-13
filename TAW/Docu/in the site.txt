@@ -1,0 +1,20 @@
+1. Main page will be here
+a style sheet seperate folder for css
+all the other parts of site,sub-sits inter connected
+
+PAGES:
+MAIN PAGE OF TWA:
+CODE OF ETHICS AND RULES
+BLOG
+BADGES
+GAMES
+
+
+IN THE GAMES:
+INITIAL 6 GAMES
+WOWS
+PUBG
+League of LEgends
+CS GO
+Rocket League
+Star Wars Battlefront

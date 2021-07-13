@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+body{
+    background-image: url("wall_papers/wall.jpg");
+    width: auto;
+    height: auto;
+}
+
+.wrapper{
+    margin-top: 8px;
+  background-color: #181717;
+  font-family: 'Anton', sans-serif;
+  position: relative;
+  left: 20%;
+  border: 10px double black;
+  width: 65%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 24vh;
+    border: 4px solid black;
+    margin-left: 0.1.6%;
+    margin-right: 0.1.6%;
+}
+
+nav{
+    border: 3px solid black;
+    margin-left: 0.1.6%;
+    margin-right: 0.1.6%;
+    margin-top: 1vh;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh;
+    text-align: center;
+    justify-content: center;
+    background-image: url("wall_papers/nexr.jfif");
+    padding-top: 1.8vh;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.5vh;
+    font-weight: bolder; 
+    
+}
+
+nav ul a:hover{
+    color: grey;
+}
+
+.intro{
+    border: 3px solid black;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 1vh;
+    margin: 5px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sect{
+    margin: 2vh;
+    display:grid;
+    grid-template-columns: 80px 1fr;
+    background-image: url("wall_papers/Grade\ Grey.jpg");
+    border: 4px solid black;
+}
+
+.sect .see{
+    padding: 1vh;
+    margin: 1vh;
+    border-bottom: 1px solid black;
+}
+
+.filler{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 3vh;
+    background-image: url("wall_papers/exer.jfif");
+}
+
+footer{
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1.23fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
